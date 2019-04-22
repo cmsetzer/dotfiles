@@ -7,6 +7,12 @@ __pycache__
 *.tox
 .coverage
 .hypothesis
+.pytest_cache
+.mypy_cache
+
+# R
+.RData
+.Rhistory
 
 # Ruby
 *.gem
