@@ -5,6 +5,7 @@
     br = branch
     hist = log --pretty=format:\"%C(yellow)% %h %C(green)% %ad %C(reset)% %s%C(dim)% %d\" --graph --date=short
     diffc = diff --cached
+    unstage = reset HEAD --
 [core]
     editor = vim
     autocrlf = input
