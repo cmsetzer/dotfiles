@@ -5,11 +5,6 @@
     br = branch
     hist = log --pretty=format:\"%C(yellow)% %h %C(green)% %ad %C(reset)% %s%C(dim)% %d\" --graph --date=short
     diffc = diff --cached
-    # Verbose output
-    tag = tag -l
-    branch = branch -a
-    remote = remote -v
-    rh = reset HEAD --
 [core]
     editor = vim
     autocrlf = input
