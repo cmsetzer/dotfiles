@@ -14,6 +14,8 @@
     trustctime = false
     # Don't show files with non-ASCII filenames as unversioned
     precomposeunicode = false
+    # Support paging in ITerm2
+    pager = less -+FX
 [diff]
     renames = copies
     renamelimit = 0
